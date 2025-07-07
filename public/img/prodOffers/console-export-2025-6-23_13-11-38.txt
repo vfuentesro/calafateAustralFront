@@ -1,0 +1,205 @@
+13:06:58.344 [vite] connecting... client:495:9
+13:06:59.067 [vite] connected. client:618:15
+13:07:27.260 [Vue warn]: Failed to resolve component: AdminHeader
+If this is a native custom element, make sure to exclude it from component resolution via compilerOptions.isCustomElement. 
+  at <Settings onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< null > > 
+  at <BaseTransition mode="out-in" appear=false persisted=false  ... > 
+  at <Transition name="fade" mode="out-in" > 
+  at <RouterView> 
+  at <App> chunk-UJUDSYKX.js:2125:13
+13:07:30.783 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:48.760 Imagen seleccionada: 
+File { name: "boina.webp", lastModified: 1749352512146, webkitRelativePath: "", size: 83986, type: "image/webp" }
+ form.imagen: 
+File { name: "boina.webp", lastModified: 1749352512146, webkitRelativePath: "", size: 83986, type: "image/webp" }
+ProductsAdmin.vue:110:17
+13:07:49.789 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:53.516 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:54.347 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:54.446 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:54.547 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:54.639 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:54.774 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:54.856 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.033 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.166 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.289 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.523 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.613 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.700 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.837 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:55.919 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:56.088 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:56.154 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:07:57.258
+Object { message: "Request failed with status code 400", name: "AxiosError", code: "ERR_BAD_REQUEST", config: {…}, request: XMLHttpRequest, response: {…}, status: 400, stack: "", … }
+ProductsAdmin.vue:172:17
+    handleSaveProduct ProductsAdmin.vue:358
+13:08:00.346 XHRPOST
+http://127.0.0.1:8000/api/productos/
+[HTTP/1.1 400 Bad Request 5ms]
+
+	
+imagen	[ "The submitted data was not a file. Check the encoding type on the form." ]
+13:08:00.354
+Object { message: "Request failed with status code 400", name: "AxiosError", code: "ERR_BAD_REQUEST", config: {…}, request: XMLHttpRequest, response: {…}, status: 400, stack: "", … }
+ProductsAdmin.vue:172:17
+    handleSaveProduct ProductsAdmin.vue:358
+    cacheKey runtime-dom.esm-bundler.js:1713
+    callWithErrorHandling runtime-core.esm-bundler.js:199
+    callWithAsyncErrorHandling runtime-core.esm-bundler.js:206
+    invoker runtime-dom.esm-bundler.js:729
+13:10:29.669 GET
+http://localhost:5173/src/views/admin/Dashboard.vue?t=1750698629633
+[HTTP/1.1 200 OK 3ms]
+
+13:10:29.675 GET
+http://localhost:5173/src/style.css?t=1750698629633
+[HTTP/1.1 200 OK 139ms]
+
+13:10:29.679 GET
+http://localhost:5173/src/views/admin/UsersAdmin.vue?t=1750698629633
+[HTTP/1.1 200 OK 19ms]
+
+13:10:29.680 GET
+http://localhost:5173/src/views/admin/OrdersAdmin.vue?t=1750698629633
+[HTTP/1.1 200 OK 19ms]
+
+13:10:29.684 GET
+http://localhost:5173/src/views/admin/ProductsAdmin.vue?t=1750698629633
+[HTTP/1.1 200 OK 18ms]
+
+13:10:29.692 GET
+http://localhost:5173/src/api/admin.ts?t=1750698629633
+[HTTP/1.1 200 OK 10ms]
+
+13:10:29.820 [vite] hot updated: /src/views/admin/Dashboard.vue client:223:19
+13:10:29.821 [vite] hot updated: /src/style.css client:223:19
+13:10:29.821 [vite] hot updated: /src/views/admin/UsersAdmin.vue client:223:19
+13:10:29.821 [vite] hot updated: /src/views/admin/OrdersAdmin.vue client:223:19
+13:10:29.821 [vite] hot updated: /src/views/admin/ProductsAdmin.vue client:223:19
+13:10:29.860 XHRGET
+http://127.0.0.1:8000/api/productos/
+[HTTP/1.1 200 OK 6ms]
+
+13:10:29.863 XHRGET
+http://127.0.0.1:8000/api/categorias/
+[HTTP/1.1 200 OK 6ms]
+
+13:10:29.920 XHRGET
+http://127.0.0.1:8000/api/ofertas/
+[HTTP/1.1 200 OK 3ms]
+
+13:10:40.159 XHRPOST
+http://127.0.0.1:8000/api/auth/logout/
+[HTTP/1.1 404 Not Found 8ms]
+
+13:10:40.178 Error en logout: 
+Object { message: "Request failed with status code 404", name: "AxiosError", code: "ERR_BAD_REQUEST", config: {…}, request: XMLHttpRequest, response: {…}, status: 404, stack: "", … }
+auth.store.ts:49:17
+13:10:49.886 GET
+http://localhost:5173/src/views/admin/ProductsAdmin.vue?t=1750698649773
+[HTTP/1.1 200 OK 128ms]
+
+13:10:49.890 GET
+http://localhost:5173/src/style.css?t=1750698649773
+[HTTP/1.1 200 OK 236ms]
+
+13:10:50.149 [vite] hot updated: /src/views/admin/ProductsAdmin.vue client:223:19
+13:10:50.149 [vite] hot updated: /src/style.css client:223:19
+13:11:05.435 XHRPOST
+http://127.0.0.1:8000/api/token/
+[HTTP/1.1 200 OK 377ms]
+
+13:11:06.033 XHRGET
+http://127.0.0.1:8000/api/dashboard/summary/
+[HTTP/1.1 200 OK 6ms]
+
+13:11:07.108 XHRGET
+http://127.0.0.1:8000/api/productos/
+[HTTP/1.1 200 OK 19ms]
+
+13:11:07.110 XHRGET
+http://127.0.0.1:8000/api/categorias/
+[HTTP/1.1 200 OK 4ms]
+
+13:11:07.123 XHRGET
+http://127.0.0.1:8000/api/ofertas/
+[HTTP/1.1 200 OK 3ms]
+
+13:11:08.031 Watcher imagenesAdicionales: 
+Proxy { <target>: [], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:24.277 Imagen seleccionada: 
+File { name: "sombreroFieltro.webp", lastModified: 1749271862963, webkitRelativePath: "", size: 28376, type: "image/webp" }
+ form.imagen: 
+File { name: "sombreroFieltro.webp", lastModified: 1749271862963, webkitRelativePath: "", size: 28376, type: "image/webp" }
+ProductsAdmin.vue:110:17
+13:11:24.922 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:28.618 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:29.772 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:29.835 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:29.895 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:30.085 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:30.157 Watcher imagenesAdicionales: 
+Proxy { <target>: (1) […], <handler>: {…} }
+ProductsAdmin.vue:125:15
+13:11:33.597 XHRPOST
+http://127.0.0.1:8000/api/productos/
+[HTTP/1.1 400 Bad Request 176ms]
+
+	
+sku	[ "This field is required." ]
+13:11:33.776
+Object { message: "Request failed with status code 400", name: "AxiosError", code: "ERR_BAD_REQUEST", config: {…}, request: XMLHttpRequest, response: {…}, status: 400, stack: "", … }
+ProductsAdmin.vue:172:17
